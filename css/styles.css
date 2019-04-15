@@ -1,0 +1,147 @@
+/*GLOBAL____________________________________________________________*/
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  color: #425D68;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #E57B5E;
+}
+
+/* Bilder____________________________________________________________ */
+.forest {
+  width: 100%;
+}
+
+.myself {
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.computer {
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+#mainHeader {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+
+#mainHeader2 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #192231;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #192231;
+}
+
+/* Top Container___________________________________________________________ */
+.top-container {
+  background: no-repeat center right fixed url(../Bilder/Forest.png);
+  height: 1080px;
+  text-align: center;
+  color: #01010B;
+}
+
+/* Middle-Container_____________________________________________________________ */
+.middle-container {
+  background-color: #e4f9f5;
+}
+
+.mid1 {
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.skills {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #F8FAF9;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* Bottom-Container_____________________________________________________________________ */
+.bottom-container {
+background-color: #e4f9f5;
+padding-top: 2rem;
+}
+
+#contact{
+  padding-bottom: 1rem;
+}
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #6E9DA6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ADE6DD;
+  background-image: -webkit-linear-gradient(top, #ADE6DD, #ADE6DD);
+  background-image: -moz-linear-gradient(top, #ADE6DD, #ADE6DD);
+  background-image: -ms-linear-gradient(top, #ADE6DD, #ADE6DD);
+  background-image: -o-linear-gradient(top, #ADE6DD, #ADE6DD);
+  background-image: linear-gradient(to bottom, #ADE6DD, #ADE6DD);
+  text-decoration: none;
+}
+
+/* IMPRESSUM_________________________________________________________________________________________________________________________________________ */
+
+.impressum{
+  background-color: #F8FAF9;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+div h2{
+  margin-top: 0;
+}
+
+.quelle {
+  margin-bottom: 0;
+}
